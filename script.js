@@ -116,3 +116,8 @@ allButtons.forEach(button => {
 })
 
 
+allButtons.forEach(button => {
+    button.addEventListener('click', displayValue);
+})
+
+
