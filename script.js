@@ -1,11 +1,23 @@
-const results = 0;
 
-function updateDisplay (sum) {
+let value;
 
-sum = document.getElementById    
+const allButtons = document.querySelectorAll('.buttons');
 
-document.getElementById('display-number').innerHTML = sum;
+function displayValue (event) {
+
+    console.log('Button clicked');
+
+    value = event.target.value;
+
+    document.getElementById('display-number').textContent = value;
+
+    console.log(value);
 
 }
+
+
+allButtons.forEach(button => {
+    button.addEventListener('click', displayValue);
+})
 
 
