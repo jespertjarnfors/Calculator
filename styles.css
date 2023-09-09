@@ -1,0 +1,102 @@
+ @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+* {
+    margin: 0;
+    inset: unset;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #F4F4F6;
+}
+
+.main-container {
+    width: 99vw;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-wrapper {
+    background-color: #CFD3E1;
+    height: 35rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid 0D1B2A;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 7px 20px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.display-window {
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    height: 5.5rem;
+    border-radius: 10px;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.display-window > p {
+    margin-right: 0.5rem;
+}
+
+.button-wrapper {
+    border-radius: 10px;
+    width: 90%;
+    height: 77%;
+    margin: auto;
+    margin-top: none;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+
+.button-regular-operator{
+    width: 5.438rem;
+    height: 5.17rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFA585;
+}
+
+.button-regular {
+    width: 5.438rem;
+    height: 5.17rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDF0FA;
+}
+
+.button-wide {
+    width: 16.813rem;
+    height: 5.17rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDF0FA;
+}
+
+button {
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border-color: #40404F;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 7px 20px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
