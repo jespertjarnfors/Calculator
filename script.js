@@ -41,8 +41,8 @@ function calculate() {
         default:
           break;
       }
-        displayValue = result.toString().slice(0,9);
-        // returning a string and slicing out the initial 9-numbers in case a division causes a lot of decimals.
+        displayValue = result.toString().slice(0,12);
+        // returning a string and slicing out the initial 12 numbers in case a division causes a lot of decimals.
     }
     return;
   }
@@ -99,7 +99,7 @@ function retrieValue (event) {
             clickedEquals = true;
     }    
 
-    if (displayValue === 'Error' || displayValue.length >= 9) {
+    if (displayValue === 'Error' || displayValue.length > 12) {
     displayValue = "Error";
     isError = true;
     acButton.style.backgroundColor = '#D6605C';

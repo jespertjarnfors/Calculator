@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
 * {
     margin: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'PT Mono', monospace;
     background-color: #F4F4F6;
 }
 
@@ -46,6 +46,7 @@ body {
 
 .display-window > p {
     margin-right: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 .button-wrapper {
