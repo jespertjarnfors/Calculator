@@ -11,3 +11,4 @@ Calculator Requirements:
 4) Reset the screen
 	- reset the value of the displayed number to 0
 
+Link to Figma file: https://www.figma.com/file/PdKNuxvyQHIobX7SKy622W/Calculator?type=design&node-id=0%3A1&mode=design&t=RTf1CR5hzZBNIaQX-1
